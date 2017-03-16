@@ -2,7 +2,7 @@
  * tegra186-cvb-prod-p2597-b00-p3310-1000-a00-00.dtsi: CVB-PROD P2597-B00 with
  *				P3310-1000
  *
- * Copyright (c) 2015-2016, NVIDIA CORPORATION.  All rights reserved.
+ * Copyright (c) 2015-2017, NVIDIA CORPORATION.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -192,6 +192,7 @@
 			regulator-min-microvolt = <5000000>;
 			regulator-max-microvolt = <5000000>;
 			gpio = <&tegra_main_gpio TEGRA_MAIN_GPIO(L, 4) 0>;
+			gpio-open-drain;
 			enable-active-high;
 		};
 
@@ -202,6 +203,7 @@
 			regulator-min-microvolt = <5000000>;
 			regulator-max-microvolt = <5000000>;
 			gpio = <&tegra_main_gpio TEGRA_MAIN_GPIO(L, 5) 0>;
+			gpio-open-drain;
 			enable-active-high;
 		};
 

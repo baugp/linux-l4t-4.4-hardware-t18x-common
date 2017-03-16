@@ -1,7 +1,7 @@
 /*
  * tegra186-cvb-slt-common-p2598-1099-a00.dtsi: Common PE2598-1099 base file.
  *
- * Copyright (c) 2015, NVIDIA CORPORATION.  All rights reserved.
+ * Copyright (c) 2015-2017, NVIDIA CORPORATION.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -194,6 +194,7 @@
 			regulator-min-microvolt = <5000000>;
 			regulator-max-microvolt = <5000000>;
 			gpio = <&tegra_main_gpio TEGRA_MAIN_GPIO(L, 4) 0>;
+			gpio-open-drain;
 			enable-active-high;
 		};
 	};
