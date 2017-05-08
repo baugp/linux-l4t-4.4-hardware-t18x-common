@@ -267,7 +267,7 @@
 			nvidia,fb-bpp = <32>; /* bits per pixel */
 			nvidia,fb-flags = <TEGRA_FB_FLIP_ON_PROBE>;
 			nvidia,fb-win = <3>;
-			win-mask = <0x38>;
+			win-mask = <0x18>;
 			nvidia,dc-or-node = "/host1x/sor1";
 			nvidia,cmu-enable = <1>;
 		};
@@ -279,7 +279,8 @@
 			nvidia,emc-clk-rate = <300000000>;
 			nvidia,fb-bpp = <32>; /* bits per pixel */
 			nvidia,fb-flags = <TEGRA_FB_FLIP_ON_PROBE>;
-			win-mask = <0x0>;
+			nvidia,fb-win = <5>;
+			win-mask = <0x20>;
 			nvidia,dc-or-node = "/host1x/sor";
 			nvidia,cmu-enable = <1>;
 		};
