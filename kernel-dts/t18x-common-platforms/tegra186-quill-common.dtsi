@@ -771,6 +771,7 @@
 	};
 
 	hda@3510000 {
+		max-sdo-lines = <2>;
 		status = "okay";
        };
 
