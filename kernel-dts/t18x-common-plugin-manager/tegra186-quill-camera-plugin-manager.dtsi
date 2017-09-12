@@ -1173,7 +1173,7 @@
 				_overlay_ {
 					status = "okay";
 					pcl_id = "v4l2_sensor";
-					devname = "imx219 30-0036";
+					devname = "imx219 30-0010";
 					proc-device-tree = "/proc/device-tree/i2c@3180000/tca9548@77/i2c@0/imx219_a@10";
 				};
 			};
@@ -1256,7 +1256,7 @@
 				_overlay_ {
 					status = "okay";
 					pcl_id = "v4l2_sensor";
-					devname = "imx219 31-0036";
+					devname = "imx219 31-0010";
 					proc-device-tree = "/proc/device-tree/i2c@3180000/tca9548@77/i2c@1/imx219_b@10";
 				};
 			};
@@ -1339,7 +1339,7 @@
 				_overlay_ {
 					status = "okay";
 					pcl_id = "v4l2_sensor";
-					devname = "imx219 32-0036";
+					devname = "imx219 32-0010";
 					proc-device-tree = "/proc/device-tree/i2c@3180000/tca9548@77/i2c@2/imx219_c@10";
 				};
 			};
@@ -1422,7 +1422,7 @@
 				_overlay_ {
 					status = "okay";
 					pcl_id = "v4l2_sensor";
-					devname = "imx219 33-0036";
+					devname = "imx219 33-0010";
 					proc-device-tree = "/proc/device-tree/i2c@3180000/tca9548@77/i2c@3/imx219_d@10";
 				};
 			};
@@ -1505,7 +1505,7 @@
 				_overlay_ {
 					status = "okay";
 					pcl_id = "v4l2_sensor";
-					devname = "imx219 34-0036";
+					devname = "imx219 34-0010";
 					proc-device-tree = "/proc/device-tree/i2c@3180000/tca9548@77/i2c@4/imx219_e@10";
 				};
 			};
@@ -1588,7 +1588,7 @@
 				_overlay_ {
 					status = "okay";
 					pcl_id = "v4l2_sensor";
-					devname = "imx219 35-0036";
+					devname = "imx219 35-0010";
 					proc-device-tree = "/proc/device-tree/i2c@3180000/tca9548@77/i2c@5/imx219_f@10";
 				};
 			};
